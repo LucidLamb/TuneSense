@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tune Sense</title>
+        <script src="src/script.js" type="module"></script>
+    </head>
+    <body>
+      <a href="/callback">Trigger Callback</a>
+      <h1>Display your Spotify profile data</h1>
+
+      <section id="profile">
+      <h2>Logged in as <span id="displayName"></span></h2>
+      <span id="avatar"></span>
+      <ul>
+          <li>User ID: <span id="id"></span></li>
+          <li>Email: <span id="email"></span></li>
+          <li>Spotify URI: <a id="uri" href="#" target="_blank"></a></li>
+          <li>Link: <a id="url" href="#" target="_blank"></a></li>
+          <li>Profile Image: <span id="imgUrl"></span></li>
+      </ul>
+      </section>
+
+      <h2>Get Followed Artists</h2>
+      <ul>
+        <li>Total artists following: <span id="artist1"></span></li>
+      </ul>
+
+      <h2>Top Items</h2>
+      <ul>
+        <li>Your Favourite Artist: <span id="ti1"></span></li>
+        <span id="Favatar"></span>
+      </ul>
+
+      <h2>User Data</h2>
+      <ol>
+        <li>Get Current User's Profile</li>
+        <li>Get User's Top Items</li>
+        <li>Get User's Profile</li>
+        <li>Follow Playlist</li>
+        <li>Unfollow Playlist</li>
+        <li>Get Followed Artists</li>
+        <li>Follow Artists or Users</li>
+        <li>Unfollow Artists or Users</li>
+        <li>Check If User Follows Artists or Users</li>
+        <li>Check if Users Follow Playlist</li>
+      </ol>
+
+      <h2>Process</h2>
+      <ul>
+        <li>user authorizes</li>
+        <li>data is loaded onto page</li>
+        <li>data is also saved to database</li>
+        <li>if user is already in database, will update database</li>
+        <li>Dashboard for client, can see stats on whole audiance</li>
+      </ul>
+
+    </body>
+</html>
